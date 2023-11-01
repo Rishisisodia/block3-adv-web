@@ -30,7 +30,7 @@ class RemoteControl
             $this->volume = $volume;
             echo "Volume is $volume.";
         } else {
-            echo "Cannot set volume when the power is off.";
+            echo "Cannot set volume when the power is off or the volume is out of range.";
         }
     }
 
@@ -59,7 +59,7 @@ echo "<br><br>";
 // Power off
 $remote->powerOff();
 echo "<br><br>";
-// Attempt to change settings when the remote is off
+// Try to change settings when the remote is off
 $remote->setVolume(75);
 echo "<br><br>";
 $remote->changeChannel(10);
