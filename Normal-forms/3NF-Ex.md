@@ -24,8 +24,6 @@
 | Leo    | Russian     |
 | Leo    | Russian     |
 
-    </div>
-
 </div>
-
+</div>
 ### Exercise-2
