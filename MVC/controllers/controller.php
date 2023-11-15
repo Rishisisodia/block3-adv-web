@@ -1,6 +1,6 @@
 <?php
 
-if ($_GET['controller'] == 'home') {
+if (!isset($_GET['controller']) || ($_GET['controller'] == 'home')) {
     include('views/welcome.php');
 } else if ($_GET['controller'] == 'dashboard') {
     include('views/dashboard.php');
