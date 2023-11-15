@@ -1,12 +1,12 @@
 <?php
 
-if($_GET['controller'] == 'home') {
+if ($_GET['controller'] == 'home') {
     include('views/welcome.php');
-} else if ($_GET)['controller'] == 'dashboard' {
+} else if ($_GET['controller'] == 'dashboard') {
     include('views/dashboard.php');
-} else if ($_GET)['controller'] == 'login' {
+} else if ($_GET['controller'] == 'login') {
     include('views/login.php');
-} else if ($_GET)['controller'] == 'logout' {
+} else if ($_GET['controller'] == 'logout') {
     include('views/logout.php');
 } else {
     include('views/404.php');
