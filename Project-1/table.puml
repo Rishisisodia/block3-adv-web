@@ -29,4 +29,5 @@ class Dish extends FoodVendor {
   - ingredientId
   +__construct()
 }
+
 @enduml
