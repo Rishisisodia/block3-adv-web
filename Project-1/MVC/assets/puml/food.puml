@@ -1,0 +1,14 @@
+@startuml
+
+class foods {
+    + id: int
+    + ingredient: string
+    + DishName: string
+    + id_msg: string
+    + ingredient_msg: string
+    + DishName_msg: string
+
+    {method} +__construct()
+}
+
+@enduml
