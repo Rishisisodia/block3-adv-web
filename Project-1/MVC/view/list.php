@@ -26,13 +26,6 @@
 
         }
 
-        h3 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: white;
-
-        }
-
         .page-header h2 {
             margin-top: 0;
         }
@@ -62,8 +55,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header clearfix">
-                        <h2>Project-1 MVC</h2>
-                        <h3 class="text-center">Foods Details</h3>
+                        <h2 class="text-center">Foods Details</h2>
                         <a href="index.php" class="btn btn-success pull-left ">Home</a>
 
                         <a href="view/insert.php" class="btn btn-success pull-right">Add New Dish</a>
