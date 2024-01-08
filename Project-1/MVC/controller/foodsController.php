@@ -155,6 +155,6 @@ class foodsController
     public function list()
     {
         $result = $this->objsm->selectRecord(0);
-        include "view/view-index.php";
+        include "view/list.php";
     }
 }
